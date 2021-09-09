@@ -9,5 +9,6 @@ Take the following steps:
 
 - clone repository: 'git clone https://github.com/Dini108/php8-docker-skeleton'
 - change directory: 'cd php8-docker-skeleton'
-- 'docker-compose build'
-- 'docker-compose up -d'
+- cp .env.example .env
+- docker-compose build
+- docker-compose up -d
